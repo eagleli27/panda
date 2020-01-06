@@ -25,3 +25,4 @@ void Server::incomingConnection(qintptr socketDescriptor)
     QObject::connect(thread, SIGNAL(finished()), thread, SLOT(deleteLater()), Qt::DirectConnection);
     thread->start();
 }
+/**/
